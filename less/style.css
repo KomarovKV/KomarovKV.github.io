@@ -1,0 +1,330 @@
+@font-face {
+  font-family: raleway-regular;
+  src: url(../fonts/raleway/raleway-regular.ttf);
+}
+
+@font-face {
+  font-family: raleway-extraBold;
+  src: url(../fonts/raleway/raleway-extraBold.ttf);
+}
+
+@font-face {
+  font-family: raleway-medium;
+  src: url(../fonts/raleway/raleway-medium.ttf);
+}
+
+body {
+  margin: 0 auto;
+  width: 1920px;
+}
+
+.header {
+  width: 1920px;
+  height: 1024px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-image: url(../img/photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.header-wrp {
+  width: 1920px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 450px;
+}
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  width: 181px;
+  height: 100px;
+  color: #fff;
+  margin: 18px 170px 0 0;
+}
+
+.header-logo:hover {
+  color: #998675;
+}
+
+.header-wax {
+  fill: currentColor;
+  margin: 20px 0 0 0;
+}
+
+.header-wax-txt {
+  font-family: 'raleway-regular', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.header-nav {
+  height: 50px;
+  margin: 59px 21px 0 10px;
+}
+
+.header-link {
+  color: #fff;
+  font-family: 'raleway-regular', sans-serif;
+  text-decoration: none;
+  margin: 0 0 0 20px;
+  padding: 30px 0 0 0;
+}
+
+.header-link:hover {
+  color: #8b8a88;
+}
+
+.header-btn {
+  height: 20px;
+  margin: 55px 0 0 30px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.header-basket {
+  padding: 0;
+  fill: #fff;
+}
+
+.header-basket:hover {
+  fill: #998675;
+}
+
+.header-form {
+  width: 35px;
+  height: 35px;
+  margin: 56px 0 0 10px;
+}
+
+.header-search {
+  width: 20px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: none;
+  border-radius: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../icon/icon-search.png);
+}
+
+.header-search:focus {
+  width: 300px;
+  -webkit-transition: width 1s ease-out;
+  transition: width 1s ease-out;
+  background-position: right;
+  background-color: #fff;
+}
+
+.header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1920px;
+  height: 574px;
+}
+
+.header-crs-left {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 60px 400px 0 0;
+  border: none;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.header-crs-left:hover {
+  border-bottom: 2px solid #8b8a88;
+  border-left: 2px solid #8b8a88;
+}
+
+.header-crs-right {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 60px 0 0 400px;
+  border: none;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.header-crs-right:hover {
+  border-top: 2px solid #8b8a88;
+  border-right: 2px solid #8b8a88;
+}
+
+.header-crs-center {
+  width: 650px;
+  height: 520px;
+}
+
+.header-crs-txt-design {
+  font-family: 'raleway-medium', sans-serif;
+  font-size: 26px;
+  display: block;
+  width: 440px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.header-crs-txt-psd {
+  margin: 5px;
+  font-family: 'raleway-extraBold', sans-serif;
+  font-size: 36px;
+  display: block;
+  width: 440px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.header-crs-txt-center {
+  font-family: 'raleway-regular', sans-serif;
+  font-size: 13px;
+  display: block;
+  width: 440px;
+  margin: 10px auto;
+}
+
+.header-crs-btn {
+  margin: 25px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120px;
+  min-height: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  word-break: break-all;
+  border-radius: 1px;
+  background-color: #484642;
+  color: #fff;
+}
+
+.header-crs-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.header-crs-btn:active {
+  background-color: #484642;
+  color: #fff;
+}
+
+.header-crs-txt-button {
+  margin: auto;
+  font-family: 'raleway-regular', sans-serif;
+  font-size: 13px;
+}
+
+.header-pag {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-pag-link {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #484642;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+}
+
+.header-pag-link:hover {
+  border: 2px solid #fff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.header-pag-link-1 {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #484642;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+}
+
+.header-pag-link-1:hover {
+  border: 2px solid #fff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.header-pag-link-2 {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #484642;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+}
+
+.header-pag-link-2:hover {
+  border: 2px solid #fff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.header-pag-link-3 {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #484642;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+}
+
+.header-pag-link-3:hover {
+  border: 2px solid #fff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.header-pag-link-4 {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #484642;
+  border-radius: 50%;
+}
+
+.header-pag-link-4:hover {
+  border: 2px solid #fff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=style.css.map */
